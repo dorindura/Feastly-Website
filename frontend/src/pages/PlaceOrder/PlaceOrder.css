@@ -39,3 +39,16 @@
 .place-order .card-total button {
   margin-top: 30px;
 }
+
+@media (max-width: 500px) {
+  .place-order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-class {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
