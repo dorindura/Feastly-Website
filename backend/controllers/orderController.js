@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const placeOrder = async (req, res) => {
 
-    const frontend_url = "https://feastly-website-frontend.onrender.com";
+    const frontend_url = "https://www.feastly-delivery.com/";
 
     try {
         const newOrder = new orderModel({
